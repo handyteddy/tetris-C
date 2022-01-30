@@ -57,7 +57,7 @@ void drawControls() {
   int screenWidthPadding = (screenWidth() - (F_COLS * squareWidth)) / 2;
   int screenHeightPadding = (screenHeight() - (F_ROWS * squareWidth)) / 2;
 
-  textOut(screenWidth() - screenWidthPadding + 25, screenHeightPadding + padding, "CONTROLS:", 179,
+  textOut(screenWidth() - screenWidthPadding + 25, screenHeightPadding + padding, "CyberRAT IS NOT YOUR MATE:", 179,
           143, 8);
   padding += increment;
   textOut(screenWidth() - screenWidthPadding + 25, screenHeightPadding + padding, "left arrow", 76,
@@ -127,6 +127,6 @@ void drawEndGame(int score) {
   textOut(screenWidth() / 3 + 215, screenHeight() / 2 - 25, str, 131, 0, 169);
 
   textOut(screenWidth() / 3 + 25, screenHeight() / 2 - 25, "GAME OVER", 190, 0, 22);
-  textOut(screenWidth() / 3 - 25, screenHeight() / 2, "PRESS ENTER TO PLAY AGAIN OR ESC TO EXIT",
+  textOut(screenWidth() / 3 - 25, screenHeight() / 2, "PRESS ENTER TO PLAY AGAIN ",
           179, 143, 8);
 }
